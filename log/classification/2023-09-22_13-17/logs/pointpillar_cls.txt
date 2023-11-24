@@ -1,0 +1,22 @@
+2023-09-22 13:17:29,615 - Model - INFO - PARAMETER ...
+2023-09-22 13:17:29,615 - Model - INFO - Namespace(batch_size=24, decay_rate=0.0001, epoch=50, gpu='0', learning_rate=0.001, log_dir=None, model='pointpillar_cls', num_category=8, num_point=1024, optimizer='Adam', process_data=False, use_cpu=True, use_normals=False, use_uniform_sample=False)
+2023-09-22 13:17:29,615 - Model - INFO - Load dataset ...
+2023-09-22 13:17:29,624 - Model - INFO - No existing model, starting training from scratch...
+2023-09-22 13:17:29,624 - Model - INFO - Start training...
+2023-09-22 13:17:29,625 - Model - INFO - Epoch 1 (1/50):
+2023-09-22 13:17:52,989 - Model - INFO - Train Instance Accuracy: 0.585069
+2023-09-22 13:18:02,135 - Model - INFO - Test Instance Accuracy: 0.593750, Class Accuracy: 0.395833
+2023-09-22 13:18:02,193 - Model - INFO - Best Instance Accuracy: 0.593750, Class Accuracy: 0.395833
+2023-09-22 13:18:02,193 - Model - INFO - Save model...
+2023-09-22 13:18:02,193 - Model - INFO - Saving at log\classification\2023-09-22_13-17\checkpoints/best_model.pth
+2023-09-22 13:18:02,197 - Model - INFO - Epoch 2 (2/50):
+2023-09-22 13:18:25,559 - Model - INFO - Train Instance Accuracy: 0.660590
+2023-09-22 13:18:34,698 - Model - INFO - Test Instance Accuracy: 0.650000, Class Accuracy: 0.455208
+2023-09-22 13:18:34,699 - Model - INFO - Best Instance Accuracy: 0.650000, Class Accuracy: 0.455208
+2023-09-22 13:18:34,699 - Model - INFO - Save model...
+2023-09-22 13:18:34,699 - Model - INFO - Saving at log\classification\2023-09-22_13-17\checkpoints/best_model.pth
+2023-09-22 13:18:34,704 - Model - INFO - Epoch 3 (3/50):
+2023-09-22 13:18:58,887 - Model - INFO - Train Instance Accuracy: 0.680990
+2023-09-22 13:19:08,009 - Model - INFO - Test Instance Accuracy: 0.647917, Class Accuracy: 0.459375
+2023-09-22 13:19:08,009 - Model - INFO - Best Instance Accuracy: 0.650000, Class Accuracy: 0.459375
+2023-09-22 13:19:08,009 - Model - INFO - Epoch 4 (4/50):

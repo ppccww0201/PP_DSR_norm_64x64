@@ -1,0 +1,40 @@
+2023-11-23 18:14:41,180 - Model - INFO - PARAMETER ...
+2023-11-23 18:14:41,180 - Model - INFO - Namespace(Delivery_Service_Robot_Dataset=True, batch_size=24, decay_rate=0.0001, epoch=1000, gpu='0', learning_rate=0.001, log_dir=None, model='pointpillar_cls', num_category=8, num_point=1024, num_workers=8, optimizer='Adam', process_data=False, use_cpu=True, use_normals=False, use_uniform_sample=False)
+2023-11-23 18:14:41,180 - Model - INFO - Load dataset ...
+2023-11-23 18:14:41,199 - Model - INFO - Use pretrain model
+2023-11-23 18:14:41,199 - Model - INFO - Start training...
+2023-11-23 18:14:41,199 - Model - INFO - Epoch 1 (282/1000):
+2023-11-23 18:14:53,383 - Model - INFO - Train Instance Accuracy: 0.936567
+2023-11-23 18:15:00,319 - Model - INFO - Test Instance Accuracy: 0.786458, Class Accuracy: 0.812500
+2023-11-23 18:15:00,319 - Model - INFO - Best Instance Accuracy: 0.786458, Class Accuracy: 0.812500
+2023-11-23 18:15:00,319 - Model - INFO - Save model...
+2023-11-23 18:15:00,319 - Model - INFO - Saving at log\classification\2023-11-23_18-14\checkpoints/best_model.pth
+2023-11-23 18:15:00,325 - Model - INFO - Epoch 2 (283/1000):
+2023-11-23 18:15:11,161 - Model - INFO - Train Instance Accuracy: 0.937189
+2023-11-23 18:15:19,151 - Model - INFO - Test Instance Accuracy: 0.822917, Class Accuracy: 0.796987
+2023-11-23 18:15:19,151 - Model - INFO - Best Instance Accuracy: 0.822917, Class Accuracy: 0.812500
+2023-11-23 18:15:19,151 - Model - INFO - Save model...
+2023-11-23 18:15:19,151 - Model - INFO - Saving at log\classification\2023-11-23_18-14\checkpoints/best_model.pth
+2023-11-23 18:15:19,157 - Model - INFO - Epoch 3 (284/1000):
+2023-11-23 18:15:29,900 - Model - INFO - Train Instance Accuracy: 0.934080
+2023-11-23 18:15:36,892 - Model - INFO - Test Instance Accuracy: 0.875000, Class Accuracy: 0.872433
+2023-11-23 18:15:36,892 - Model - INFO - Best Instance Accuracy: 0.875000, Class Accuracy: 0.872433
+2023-11-23 18:15:36,892 - Model - INFO - Save model...
+2023-11-23 18:15:36,892 - Model - INFO - Saving at log\classification\2023-11-23_18-14\checkpoints/best_model.pth
+2023-11-23 18:15:36,897 - Model - INFO - Epoch 4 (285/1000):
+2023-11-23 18:15:47,935 - Model - INFO - Train Instance Accuracy: 0.939677
+2023-11-23 18:15:55,021 - Model - INFO - Test Instance Accuracy: 0.869792, Class Accuracy: 0.868006
+2023-11-23 18:15:55,022 - Model - INFO - Best Instance Accuracy: 0.875000, Class Accuracy: 0.872433
+2023-11-23 18:15:55,022 - Model - INFO - Epoch 5 (286/1000):
+2023-11-23 18:16:05,829 - Model - INFO - Train Instance Accuracy: 0.938433
+2023-11-23 18:16:12,987 - Model - INFO - Test Instance Accuracy: 0.848958, Class Accuracy: 0.824368
+2023-11-23 18:16:12,988 - Model - INFO - Best Instance Accuracy: 0.875000, Class Accuracy: 0.872433
+2023-11-23 18:16:12,988 - Model - INFO - Epoch 6 (287/1000):
+2023-11-23 18:16:23,748 - Model - INFO - Train Instance Accuracy: 0.959577
+2023-11-23 18:16:30,265 - Model - INFO - Test Instance Accuracy: 0.869792, Class Accuracy: 0.841629
+2023-11-23 18:16:30,265 - Model - INFO - Best Instance Accuracy: 0.875000, Class Accuracy: 0.872433
+2023-11-23 18:16:30,265 - Model - INFO - Epoch 7 (288/1000):
+2023-11-23 18:16:41,497 - Model - INFO - Train Instance Accuracy: 0.942164
+2023-11-23 18:16:48,323 - Model - INFO - Test Instance Accuracy: 0.822917, Class Accuracy: 0.851353
+2023-11-23 18:16:48,323 - Model - INFO - Best Instance Accuracy: 0.875000, Class Accuracy: 0.872433
+2023-11-23 18:16:48,323 - Model - INFO - Epoch 8 (289/1000):
